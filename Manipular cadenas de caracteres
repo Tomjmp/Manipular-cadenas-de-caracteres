@@ -1,0 +1,23 @@
+my_string= "Ha llovido mucho en la semana"
+print(my_string)
+
+#Retornar todo el texto en mayúsculas
+print(my_string.upper())
+
+#Retornar todo el texto en minúsculas 
+print(my_string.lower())
+
+#Retornar los dos primeros caracteres del texto
+s2 = my_string[:2]
+print(s2)
+
+#Retornar los dos últimos caracteres del texto
+s3 = my_string[27:]
+print(s3)
+
+#Retornar la cantidad de veces que se repite el último caracter
+print(my_string.count("a"))
+
+#Retornar el texto invertido
+s4 = my_string[::-1]
+print(s4)
